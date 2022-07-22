@@ -1,48 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu perfil</title>
-</head>
-<body>
-    <ul> 
-        <li> <a href="index.html"> Home </a> 
-        <li> <a href="contato.html"> Contato </a> 
-    </ul>
-
-
-    <h1> Sobre a Isabella </h1>
-    <p> 
-        <ul> 
-        <li> Engenheira Cartógrafa e Agrimensora - UNESP
-        <li> Desenvolvedora e Analista de Sistemas - UNIP/GENERATION BRASIL
-        <li> Estudante de mestrado em Engenharia Agrícola (Agricultura de Precisão) - UNICAMP
-        <li> Apreciadora de livros
-        <li> Gym's Mouse
-        <li> Fã de curiar as coisas de tecnologia
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu perfil</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    
+    </head>
+    <body>
+        <ul id="menu"> 
+            <li> <a href="index.html"> Home </a> </li>
+            <li> <a href="contato.html"> Contato </a> </li>
         </ul>
-    </p>
-    <p> Bora fazer um artigo ou correr 5km? </p>
-    <p> Entre em <a href="contato.html"> Contato </a> comigo! </p>
-
-    <img src="./assets/isinha.jpeg" alt="Foto da Desenvolvedora desse conteudo" height="300" width="300">
-    <img src="./assets/isinha1.jpg" alt="Foto da Desenvolvedora desse conteudo" height="300" width="255">
-    <img src="./assets/isinha2.jpg" alt="Foto da Desenvolvedora desse conteudo" height="300" width="270">
-
-    <h2> Meu video favorito </h2>
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/6iHdVa9YQtI" 
-    title="YouTube video player" 
-    frameborder="3" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-    </iframe>
-
-
-
+            
+        <h1 class="center"> Sobre a Isabella </h1>
+    
+    
+        <div class="container">
+            <div class="p-30"> 
+                <p> 
+                    <ul> 
+                    <li> Engenheira Cartógrafa e Agrimensora - UNESP
+                    <li> Desenvolvedora e Analista de Sistemas - UNIP/GENERATION BRASIL
+                    <li> Estudante de mestrado em Engenharia Agrícola (Agricultura de Precisão) - UNICAMP
+                    <li> Apreciadora de livros
+                    <li> Gym's Mouse
+                    <li> Fã de curiar as coisas de tecnologia
+                    </ul>
+                </p>
+                <p class="center"> Bora fazer um artigo ou correr 5km? </p>
+            
+                <p class="center"> Entre em <a class="hiperlinkmeio corhiperlinkmeio" href="contato.html" > Contato </a> comigo! </p>
+    
+            </div>
+            <br>
+            <div> 
+                <img class="br-20 wh "src="./assets/img/isinha.jpeg" alt="Foto da Desenvolvedora desse conteudo" height="300" width="300">
+                <img class="br-20 wh "src="./assets/img/isinha1.jpg" alt="Foto da Desenvolvedora desse conteudo" height="300" width="255">
+                <img class="br-20 wh "src="./assets/img/isinha2.jpg" alt="Foto da Desenvolvedora desse conteudo" height="300" width="270">
+    
+            </div>
+        </div>
+        
+        <h2 class="center"> Meu video favorito </h2>
+        <div class="container mb-50"> 
+    
+                <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/6iHdVa9YQtI" 
+                title="YouTube video player" 
+                frameborder="3" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+    
+        </div>
+    
+        <hr> 
+    <footer> 
+        <div class="container"> 
+            <a href="https://www.linkedin.com/in/isabella-alves-da-cunha-a110011b9/" target="_blank"  >
+                <img class="tm-social p-15 br-50" src="./assets/img/linkedin.png" >
+            </a>
+            <a href="https://drive.google.com/file/d/1d4SNZgtX8lURS2YSTir7EnFNfENmIF_Q/view?usp=sharing"  target="_blank">
+                <img class="tm-social p-15 br-50" src="./assets/img/telegram.png" >
+            </a>
+            <a href="https://www.instagram.com/isaalvesdc/?hl=pt-br"  target="_blank">
+                <img class="tm-social p-15 br-50" src="./assets/img/instagram.png" >
+            </a>
+            <a href="https://github.com/isaacunha"  target="_blank">
+                <img class="tm-social p-15 br-50" src="./assets/img/github.png" >
+            </a>
+    
+        </div>
+    
+        <p class="center">
+            Todos os direitos reservados para a linda da Isabella Cunha &copy;
+        </p>
+    </footer>
 </body>
 </html>
