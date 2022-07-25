@@ -67,8 +67,15 @@
     .mb-50{
         margin-bottom: 50px;
     }
+    .mb-100{
+        margin-bottom: 100px;
+    }
 
 
 
 
 /*Estilos da pagina contatos.html*/
+
+    .ml-50{
+        margin-left: 50px;
+    }
