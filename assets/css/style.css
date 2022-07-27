@@ -1,0 +1,81 @@
+/* Estilos da pagina index.html */
+
+    .center {
+        text-align: center;
+    }
+
+    .container{
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu li{
+        display: inline;
+        padding: 15px;
+    }
+
+    #menu li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+
+    }
+
+    #menu li a:hover{
+        color: palevioletred;
+
+    }
+
+    .hiperlinkmeio{
+        text-decoration: none;
+        color: black;
+    }
+    .corhiperlinkmeio{
+        color: palevioletred;
+    }
+
+    .justify{
+        text-align: justify;
+    }
+
+    .p-30 {
+        padding: 30px;
+    }
+
+    .p-15 {
+        padding: 15px;
+    }
+    .br-20{
+        border-radius: 20%;
+    }
+
+    .br-50{
+    border-radius: 50%;
+    }
+
+    /* .wh{ comentei pq colocquei os tamanhos certos na imagem ja, cada uma deve ter o seu tamanho*/ 
+        /* width: 200px; */
+        /* height: 500px */
+    /* } */
+
+    .tm-social{
+        width: 50px;
+        height: 50px;
+        
+    }
+    .mb-50{
+        margin-bottom: 50px;
+    }
+    .mb-100{
+        margin-bottom: 100px;
+    }
+
+
+
+
+/*Estilos da pagina contatos.html*/
+
+    .ml-50{
+        margin-left: 50px;
+    }
